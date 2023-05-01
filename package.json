@@ -1,7 +1,7 @@
 {
-  "name": "cdk-skeleton",
+  "name": "workshop",
   "version": "0.1.0",
-  "description": "Skeleton for CDK V2",
+  "description": "AWS CDK Workshop",
   "author": "owitech",
   "bin": {
     "app": "bin/app.ts"
