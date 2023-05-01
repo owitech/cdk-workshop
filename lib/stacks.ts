@@ -6,7 +6,7 @@ export class Test extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    const vpc = new ec2.Vpc(this, 'Vpc', {
+    new ec2.Vpc(this, 'Vpc', {
       maxAzs: 1,
       natGateways: 0,
     });
