@@ -1,8 +1,8 @@
-import "source-map-support/register";
-import { App } from "aws-cdk-lib";
+import 'source-map-support/register';
+import { App } from 'aws-cdk-lib';
 
-import { MyVpc } from "../lib/vpc";
+import { Test } from '../lib/stacks';
 
 const app = new App();
 
-new MyVpc(app, "MyVpcStack");
+new Test(app, 'TestStack');
